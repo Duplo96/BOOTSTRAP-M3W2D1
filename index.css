@@ -1,0 +1,32 @@
+img {
+  width: 100px;
+  object-fit: cover;
+}
+.bg-img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.7);
+  position: absolute;
+  z-index: -1;
+  object-fit: fill;
+  image-rendering: optimizeQuality;
+  aspect-ratio: 1/1;
+}
+h5 {
+  color: white !important;
+}
+.list-group-item {
+  background: fixed;
+  border: none;
+}
+
+.card {
+  background-color: #272727;
+}
+nav {
+  height: 200px;
+  background-color: transparent;
+}
+body {
+  background-color: #121212; /* Sostituisci con il colore desiderato */
+}
