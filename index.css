@@ -14,3 +14,24 @@ img {
 .text-success {
   color: #1fdf64 !important ;
 }
+.text-warning {
+  color: #a430af !important;
+}
+.list-group-item {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+.list-group-numbered {
+  display: flex;
+  flex-direction: column;
+}
+*/ body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
