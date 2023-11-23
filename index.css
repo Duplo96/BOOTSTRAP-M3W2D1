@@ -1,32 +1,16 @@
+.bg-dark {
+  background-color: #121212 !important;
+}
 img {
-  width: 100px;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
-.bg-img {
-  height: 100%;
-  width: 100%;
-  filter: brightness(0.7);
-  position: absolute;
-  z-index: -1;
-  object-fit: fill;
-  image-rendering: optimizeQuality;
-  aspect-ratio: 1/1;
+.bg-light {
+  background-color: #212121 !important;
 }
-h5 {
-  color: white !important;
-}
-.list-group-item {
-  background: fixed;
-  border: none;
-}
-
 .card {
-  background-color: #272727;
+  border: none !important;
 }
-nav {
-  height: 200px;
-  background-color: transparent;
-}
-body {
-  background-color: #121212; /* Sostituisci con il colore desiderato */
+.text-success {
+  color: #1fdf64 !important ;
 }
